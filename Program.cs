@@ -6,9 +6,18 @@ namespace sprint2branching
     {
         static void Main(string[] args)
         {
-            //bool shouldPrint = true;
+            /* Neither Pass Go, Nor Collect 200
+            bool shouldPrint = true;
 
-            while(true)
+            while (shouldPrint)
+            {
+                Console.WriteLine("I should print!");
+                break;
+            }
+            */
+
+            /*Monty Python and Break
+            while (true)
             {
                 Console.WriteLine("What is your favorite Color?");
                 string favoriteColor = Console.ReadLine();
@@ -22,6 +31,21 @@ namespace sprint2branching
 
                 Console.WriteLine($"Your favorite color is {favoriteColor}");
             }
+            */
+
+
+            /* Using a continue to skip over the CW
+            for (int count = 1; count < 10; count++)
+            {
+                if (count % 3 == 0)//is a multiple of 3
+                {
+                    continue;
+                }
+                Console.WriteLine("Count is " + count);
+            }
+            */
+
+
 
 
 
