@@ -53,7 +53,7 @@ namespace sprint2branching
             {
                 for (int minutes = 0; minutes < 60; minutes += 5)
                 {
-                    Console.WriteLine($"The time is {hours}:{minutes}");
+                    Console.WriteLine($"The time is {hours:00}:{minutes:00}");
                 }
             }
 
