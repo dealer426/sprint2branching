@@ -46,9 +46,20 @@ namespace sprint2branching
             */
 
 
+            Console.WriteLine("Message for 42: " + chooseMessage(42));
+            Console.WriteLine("Message for 23: " + chooseMessage(23));
 
 
+        }
 
+        public static string chooseMessage(int input)
+        {
+            if(input % 2 == 0)
+            {
+                return "Even Steven!";
+            }
+
+            return "You're odd!";
         }
     }
 }
