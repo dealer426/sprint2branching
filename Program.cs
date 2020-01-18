@@ -6,12 +6,21 @@ namespace sprint2branching
     {
         static void Main(string[] args)
         {
-            bool shouldPrint = true;
+            //bool shouldPrint = true;
 
-            while(shouldPrint)
+            while(true)
             {
-                Console.WriteLine("I should Print!");
-                break;
+                Console.WriteLine("What is your favorite Color?");
+                string favoriteColor = Console.ReadLine();
+
+                if(favoriteColor == "Blue. No yel-- Auuuuuuuugh!")
+                {
+                    Console.WriteLine("You're just making Monty Python References.");
+                    Console.WriteLine("Get Out");
+                    break;
+                }
+
+                Console.WriteLine($"Your favorite color is {favoriteColor}");
             }
 
 
