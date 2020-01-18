@@ -49,6 +49,14 @@ namespace sprint2branching
             Console.WriteLine("Message for 42: " + chooseMessage(42));
             Console.WriteLine("Message for 23: " + chooseMessage(23));
 
+            for (int hours = 1; hours < 3; hours++)
+            {
+                for (int minutes = 0; minutes < 60; minutes += 5)
+                {
+                    Console.WriteLine($"The time is {hours}:{minutes}");
+                }
+            }
+
 
         }
 
