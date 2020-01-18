@@ -6,7 +6,16 @@ namespace sprint2branching
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            bool shouldPrint = true;
+
+            while(shouldPrint)
+            {
+                Console.WriteLine("I should Print!");
+                break;
+            }
+
+
+
         }
     }
 }
